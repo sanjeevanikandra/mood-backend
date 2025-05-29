@@ -50,7 +50,7 @@ async function run(message) {
     return parsedResponse; 
   } catch (err) {
     console.error("Failed to parse Gemini response:", err);
-    return { mood: "Unknown", suggestions: ["No suggestions available"] }; 
+    return { mood: "Tired", suggestions: ["Get some rest.","Take a nap.","Drink some water.","Have a snack."] }; 
   }
 }
 
